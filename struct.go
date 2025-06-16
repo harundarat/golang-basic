@@ -29,11 +29,7 @@ func main() {
 	}
 	fmt.Println(al)
 
-	rasyid := Customer{
-		Name:    "Rasyid",
-		Address: "Indonesia",
-		Age:     22,
-	}
+	rasyid := Customer{"Rasyid", "Indonesia", 22}
 	fmt.Println(rasyid)
 
 	harun.sayHello("Vincent")
